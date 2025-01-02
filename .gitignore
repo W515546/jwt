@@ -31,12 +31,13 @@ bld/
 ScaffoldingReadMe.txt
 
 # NuGet Packages
+packages/
 *.nupkg
-# Include packages folder if needed
-!packages/
 *.snupkg
 *.nuget.props
 *.nuget.targets
+# Prevent restoring unnecessary package folder content
+!packages/**/*.keep
 
 # IIS Express
 /IISExpress/
@@ -75,3 +76,8 @@ publish/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Additional NuGet
+*.dll
+*.pdb
+*.xml
