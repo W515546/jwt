@@ -1,0 +1,77 @@
+# Visual Studio Specific
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files and folders
+/.vs/
+!/.vs/keep
+*.log
+*.tlog
+*.idb
+*.VC.db
+*.opendb
+*.VC.opendb
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+# Include packages folder if needed
+!packages/
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# IIS Express
+/IISExpress/
+*.vspscc
+*.vssscc
+config/applicationhost.config
+
+# User-specific files
+*.rsuser
+*.pfx
+*.p12
+.vsconfig
+
+# Microsoft Office Temporary Files
+~$*
+
+# Backup & Recycle Bin
+_Recycle.Bin/
+*.bak
+*.tmp
+*.temp
+
+# Publish and Deployment
+publish/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# JetBrains Rider
+.idea/
+.idea.modules
+
+# Others
+*.pidb
+*.pidb.lock
+Thumbs.db
+ehthumbs.db
+Desktop.ini
